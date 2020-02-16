@@ -1,4 +1,10 @@
 main:
+  - title: Some title
+    children:
+      - title: "Avocados"
+        url: /avocados/
+      - title: "Kiwis"
+        url: /kiwis/
   - title: Info
     children:
       - title: "About"
