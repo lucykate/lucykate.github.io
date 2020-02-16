@@ -62,8 +62,11 @@ author:
 
 defaults:
   # _posts
-  sidebar:
-    nav: "main"
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      sidebar: 
+        nav: "main"
   - scope:
       path: ""
       type: posts
