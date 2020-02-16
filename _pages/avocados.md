@@ -43,5 +43,5 @@ some text to start with
 
 And some more text afterwards to make sure everything lines up, then a second gallery!
 
-{% include gallery2 caption="This is the second gallery" %}
+{% include gallery id="gallery2" caption="This is the second gallery" %}
 
