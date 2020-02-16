@@ -57,10 +57,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-author:
-  name   : "Loopy Lope"
-  src    : /
-
 defaults:
   # _posts
   - scope:
