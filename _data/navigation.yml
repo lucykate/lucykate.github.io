@@ -1,5 +1,5 @@
 main:
-  - title: Some title
+  - title: Menu section title
     children:
       - title: "Avocados"
         url: /avocados/
