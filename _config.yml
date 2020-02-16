@@ -62,6 +62,8 @@ author:
 
 defaults:
   # _posts
+  sidebar:
+    nav: "main"
   - scope:
       path: ""
       type: posts
