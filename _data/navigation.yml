@@ -1,3 +1,7 @@
 main:
-  - title: "About"
-    url: /about/
+ - title: Info
+    children:
+      - title: "About"
+      url: /about/
+      - title: "Contact"
+      url: /contact/
