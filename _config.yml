@@ -59,6 +59,7 @@ plugins:
 
 author:
   name   : "Loopy Lope"
+  src    : /
 
 defaults:
   # _posts
