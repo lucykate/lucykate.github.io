@@ -26,6 +26,7 @@ gallery:
     image_path: /assets/images/baked-eggs-in-avocado-6.jpg
     alt: "placeholder image 4"
     title: "Image 4 title caption"
+gallery2:
   - url: /assets/images/how-to-cut-an-avocado-11-600x900.jpg
     image_path: /assets/images/how-to-cut-an-avocado-11-600x900.jpg
     alt: "placeholder image 4"
@@ -40,4 +41,7 @@ some text to start with
 
 {% include gallery caption="This is a sample gallery, this caption is optional" %}
 
-And some more text afterwards to make sure everything lines up.
+And some more text afterwards to make sure everything lines up, then a second gallery!
+
+{% include gallery2 caption="This is the second gallery" %}
+
