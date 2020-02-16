@@ -1,6 +1,10 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
-  <a href='/'><h1>{{ site.title }}<h1></a>
+  <a href='/' style="color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;">
+    <h1>{{ site.title }}<h1>
+  </a>
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
   {% if page.sidebar %}
     {% for s in page.sidebar %}
