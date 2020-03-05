@@ -2,6 +2,7 @@
 permalink: /contact/
 title: "Contact"
 ---
-tomclopez@gmail.com
+lucykatelopez@gmail.com
+@lucykate_lopez
 
-Perhaps a [link to my linkedin](https://www.linkedin.com/in/tomclopez/) or a [link to another website](https://google.com/)
+Currently working with [Eastside Projects](https://eastsideprojects.org) and [Grand Union](https://grand-union.org.uk)
