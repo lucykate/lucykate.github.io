@@ -1,13 +1,9 @@
 main:
-  - title: Menu section title
-    children:
-      - title: "Avocados"
-        url: /avocados/
-      - title: "Kiwis"
-        url: /kiwis/
-  - title: Info
-    children:
-      - title: "About"
-        url: /about/
-      - title: "Contact"
-        url: /contact/
+  - title: "Avocados"
+    url: /avocados/
+  - title: "Kiwis"
+    url: /kiwis/
+  - title: "About"
+    url: /about/
+  - title: "Contact"
+    url: /contact/
