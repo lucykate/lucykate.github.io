@@ -1,6 +1,5 @@
 ---
 permalink: /contact/
-title: "Contact"
 ---
 lucykatelopez@gmail.com
 
