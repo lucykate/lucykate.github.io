@@ -2,6 +2,8 @@
 permalink: /writing/
 ---
 
-Essay about avocados  
-talk at gallery  
-conference paper  
+2020  
+   Essay about avocados  
+   talk at gallery  
+   conference paper  
+2019  
