@@ -45,3 +45,7 @@ And some more text afterwards to make sure everything lines up, then a second ga
 
 {% include gallery id="gallery2" caption="This is the second gallery" %}
 
+a new slider:
+
+{% include carousel.html height="50" unit="%" duration="7" %}
+
