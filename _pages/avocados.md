@@ -39,7 +39,7 @@ gallery2:
 
 some text to start with
 
-<div id="slider">
+<div id="slider" markdown="1">
   
   ![Some avocados](/assets/images/Avocad0-CD.jpg)
   ![more](/assets/images/avocados-3-600x900.jpg)
