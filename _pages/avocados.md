@@ -43,7 +43,7 @@ some text to start with
   
   ![Some avocados](/assets/images/Avocad0-CD.jpg)
   ![more](/assets/images/avocados-3-600x900.jpg)
-  ![and still more](/assets/images/avocados-3-600x900.jpg)
+  ![and still more](/assets/images/how-to-cut-an-avocado-3.jpg)
   
 </div>
 
