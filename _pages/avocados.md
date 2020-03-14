@@ -39,8 +39,16 @@ gallery2:
 
 some text to start with
 
-{% include gallery caption="This is a sample gallery, this caption is optional" %}
+{% slider %}
+  ![Some avocados](/assets/images/Avocad0-CD.jpg)
+  ![more](/assets/images/avocados-3-600x900.jpg)
+  ![and still more](/assets/images/avocados-3-600x900.jpg)
+{% endslider %}
 
 And some more text afterwards to make sure everything lines up, then a second gallery!
 
-{% include gallery id="gallery2" caption="This is the second gallery" %}
+{% slider %}
+  ![how to slice an avo](/assets/images/how-to-cut-an-avocado-11-600x900.jpg)
+  ![cut an avocado](/assets/images/how-to-cut-an-avocado-3.jpg)
+  ![baked eggs in avocado3](/assets/images/baked-eggs-in-avocado-6.jpg)
+{% endslider %}
