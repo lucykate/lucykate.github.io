@@ -1,0 +1,12 @@
+- selector: avocado_slider
+  captions: true
+  images:
+    - src: /assets/images/Avocad0-CD.jpg
+      alt: image one
+    - src: /assets/images/how-to-cut-an-avocado-3.jpg
+      alt: image two
+    - src: /assets/images/avocados-3-600x900.jpg
+      alt: image three
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
