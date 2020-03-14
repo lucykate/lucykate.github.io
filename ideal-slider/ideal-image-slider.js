@@ -518,13 +518,19 @@ var IdealImageSlider = (function() {
 			if (this.settings.previousNavSelector) {
 				previousNav = document.querySelector(this.settings.previousNavSelector);
 			} else {
-				previousNav = document.createElement('a');
+				var previousNav = document.createElement('a');
+				var nav = document.createTextNode("<");
+                                // add the text node to the newly created div
+                                previousNav.appendChild(nav);
 				sliderEl.before(previousNav);
 			}
 			if (this.settings.nextNavSelector) {
 				nextNav = document.querySelector(this.settings.nextNavSelector);
 			} else {
-				nextNav = document.createElement('a');
+				var nextNav = document.createElement('a');
+				var nav = document.createTextNode(">");
+                                // add the text node to the newly created div
+                                nextNav.appendChild(nav);
 				sliderEl.before(nextNav);
 			}
 
