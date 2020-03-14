@@ -40,9 +40,9 @@ gallery2:
 some text to start with
 
 <div id="slider" markdown="1">
-  ![Some avocados](/assets/images/Avocad0-CD.jpg)
-  ![more](/assets/images/avocados-3-600x900.jpg)
-  ![and still more](/assets/images/how-to-cut-an-avocado-3.jpg)
+  <img src="/assets/images/Avocad0-CD.jpg" alt="Some avocados">
+  <img src="/assets/images/avocados-3-600x900.jpg" alt="more">
+  <img src="/assets/images/how-to-cut-an-avocado-3.jpg" alt="and still more">
 </div>
 
 And some more text afterwards to make sure everything lines up.
