@@ -37,3 +37,17 @@
     <script src="{{ script_path }}"></script>
   {% endfor %}
 {% endif %}
+<!-- Slider -->
+<script src="{{ "/path/to/ideal-image-slider.min.js" | relative_url }}"></script>
+<script src="{{ "/path/to/iis-bullet-nav.js" | relative_url }}"></script>
+<script src="{{ "/path/to/iis-captions.js" | relative_url }}"></script>
+<!-- Sliders on pages -->
+{% for script in page.iis_slider_scripts %}
+  {{ script }}
+{% endfor %}
+<!-- Sliders on indexes -->
+{% for post in paginator.posts %}
+  {% for script in post.iis_slider_scripts %}
+    {{ script }}
+  {% endfor %}
+{% endfor %}
