@@ -64,3 +64,5 @@ defaults:
       sidebar: 
         nav: "main"
       layout: single
+
+iis_slider_array: []
