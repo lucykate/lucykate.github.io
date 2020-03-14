@@ -519,13 +519,13 @@ var IdealImageSlider = (function() {
 				previousNav = document.querySelector(this.settings.previousNavSelector);
 			} else {
 				previousNav = document.createElement('a');
-				sliderEl.appendChild(previousNav);
+				sliderEl.before(previousNav);
 			}
 			if (this.settings.nextNavSelector) {
 				nextNav = document.querySelector(this.settings.nextNavSelector);
 			} else {
 				nextNav = document.createElement('a');
-				sliderEl.appendChild(nextNav);
+				sliderEl.before(nextNav);
 			}
 
 			_addClass(previousNav, this.settings.classes.previousNav);
