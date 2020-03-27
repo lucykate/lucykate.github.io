@@ -66,3 +66,6 @@ defaults:
       layout: single
 
 iis_slider_array: []
+
+image_sliders:
+  - default_slider
