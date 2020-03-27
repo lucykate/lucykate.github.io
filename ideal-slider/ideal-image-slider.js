@@ -515,15 +515,6 @@ var IdealImageSlider = (function() {
 		// Create navigation
 		if (!this.settings.disableNav) {
 			var previousNav, nextNav;
-			if (this.settings.previousNavSelector) {
-				previousNav = document.querySelector(this.settings.previousNavSelector);
-			} else {
-				var previousNav = document.createElement('a');
-				var nav = document.createTextNode("<");
-                                // add the text node to the newly created div
-                                previousNav.appendChild(nav);
-				sliderEl.before(previousNav);
-			}
 			if (this.settings.nextNavSelector) {
 				nextNav = document.querySelector(this.settings.nextNavSelector);
 			} else {
@@ -533,6 +524,16 @@ var IdealImageSlider = (function() {
                                 nextNav.appendChild(nav);
 				sliderEl.before(nextNav);
 			}
+			if (this.settings.previousNavSelector) {
+				previousNav = document.querySelector(this.settings.previousNavSelector);
+			} else {
+				var previousNav = document.createElement('a');
+				var nav = document.createTextNode("<");
+                                // add the text node to the newly created div
+                                previousNav.appendChild(nav);
+				sliderEl.before(previousNav);
+			}
+			
 
 			_addClass(previousNav, this.settings.classes.previousNav);
 			_addClass(nextNav, this.settings.classes.nextNav);
