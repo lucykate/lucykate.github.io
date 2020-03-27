@@ -7,6 +7,6 @@ image_sliders:
 
 some text to start with
 
-{% include slider.html selector="avocado_slider" %}
+{% include slider.html %}
 
 And some more text afterwards to make sure everything lines up.
