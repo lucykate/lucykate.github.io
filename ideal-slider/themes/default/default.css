@@ -19,13 +19,13 @@
     	right: 0;
     	float: right;
 	color: black;
-	
-	a:not(.btn):not(#goog-wm-sb):hover {
-		text-decoration: none;
-		color: black;
-
-	}
 }
+.page__content a.iis-next-nav:not(.btn):not(#goog-wm-sb):hover, 
+.page__content a.iis-previous-nav:not(.btn):not(#goog-wm-sb):hover {
+	text-decoration: none;
+	color: black;
+}
+
 .iis-previous-nav {}
 .iis-next-nav {}
 .ideal-image-slider:hover .iis-previous-nav,
