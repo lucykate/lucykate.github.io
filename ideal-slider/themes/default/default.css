@@ -19,6 +19,7 @@
     	right: 0;
     	float: right;
 	color: black;
+	font-size: 25px;
 }
 .page__content a.iis-next-nav:not(.btn):not(#goog-wm-sb):hover, 
 .page__content a.iis-previous-nav:not(.btn):not(#goog-wm-sb):hover {
