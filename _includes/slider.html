@@ -3,7 +3,7 @@
 <!-- v1.8 -->
 {%- assign slider = site.data.sliders | where:"selector","default_slider" | first -%}
 <div id="{{ slider.selector }}">
-{% for image in slider.images -%}
+{% for image in page.slider_images -%}
   {% if image.href -%}<a href="{{ image.href }}">{%- endif -%}<img data-src="{{ image.data-src | relative_url }}" data-src-2x="{{ image.data-src-2x | relative_url }}" src="{{ image.src | relative_url }}" title="{{ image.title }}" alt="{{ image.alt }}">{%- if image.href -%}</a>{% endif %}
 {% endfor -%}
 </div>
