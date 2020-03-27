@@ -1,8 +1,6 @@
 ---
 permalink: /avocados/
 title: "Avocados I found on the internet"
-image_sliders:
-  - default_slider
 ---
 
 some text to start with
