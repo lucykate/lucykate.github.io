@@ -2,7 +2,7 @@
 permalink: /avocados/
 title: "Avocados I found on the internet"
 image_sliders:
-  - avocado_slider
+  - default_slider
 ---
 
 some text to start with
