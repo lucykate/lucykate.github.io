@@ -1,6 +1,13 @@
 ---
 permalink: /avocados/
 title: "Avocados I found on the internet"
+slider_images:
+  - src: /assets/images/Avocad0-CD.jpg
+    alt: image one
+  - src: /assets/images/avocado-shutterstock_1127284562-800x450.jpg
+    alt: image two
+  - src: /assets/images/baked-eggs-in-avocado-6.jpg
+    alt: image three
 ---
 
 some text to start with
