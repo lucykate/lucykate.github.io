@@ -18,6 +18,13 @@
 	cursor: pointer;
     	right: 0;
     	float: right;
+	color: black;
+	
+	a:not(.btn):not(#goog-wm-sb):hover {
+		text-decoration: none;
+		color: black;
+
+	}
 }
 .iis-previous-nav {}
 .iis-next-nav {}
