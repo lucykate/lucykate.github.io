@@ -9,11 +9,15 @@
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	background-size: 32px 32px;
+	clear:both
 }
 
 /* Navigation */
 .iis-previous-nav,
 .iis-next-nav {
+	cursor: pointer;
+    	right: 0;
+    	float: right;
 }
 .iis-previous-nav {}
 .iis-next-nav {}
