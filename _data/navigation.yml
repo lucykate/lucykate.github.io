@@ -1,8 +1,4 @@
 main:
-  - title: "Avocados"
-    url: /avocados/
-  - title: "Kiwis"
-    url: /kiwis/
   - title: "About"
     url: /about/
   - title: "Projects"
