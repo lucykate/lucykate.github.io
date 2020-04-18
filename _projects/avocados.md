@@ -1,7 +1,7 @@
 ---
 title: "Avocados I found on the internet"
 collection: projects
-date: 2020-01-02
+date: 2020-04-18
 header:
   teaser: assets/images/baked-eggs-in-avocado-6.jpg
 slider_images:
